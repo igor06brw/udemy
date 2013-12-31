@@ -132,6 +132,7 @@ outline: none;
 .jumbotron h1{
 	color: #fff;
 	font-weight: 300;
+	margin: 0 0 60px 0;
 
 }
 
@@ -147,7 +148,32 @@ outline: none;
 	line-height: 30px;
 	font-weight: 400;
 	text-transform: none;
+	margin: 0 0 60px 0;
 
 	
 }
+
+
+.jumbotron h3 span{
+	color: #fff;
+}
+
+.jumbotron .btn-primary{
+	border-radius: 2px;
+	border: 1px solid #fff;
+	background: rgba(255,255,255,0.05);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 16px 30px;
+}
+
+
+.jumbotron .btn-primary:hover{
+	background: rgba(255,255,255,0.1);
+}
+
+
+
+
 
