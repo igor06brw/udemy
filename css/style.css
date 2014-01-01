@@ -173,7 +173,138 @@ outline: none;
 	background: rgba(255,255,255,0.1);
 }
 
+.services{
+	padding: 60px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.services h4{
+	margin-bottom: 30px;
+}
+
+.services p{
+	margin-bottom: 40px;
+}
+
+.services-web  .services-dev{
+	margin-bottom: 60px;
+}
+
+.services .more{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.icon-sprite{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url(img/sprite.png)no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+.icon-sprite.sprite-web{
+	background-position: left -32px;
+}
+
+.icon-sprite.sprite-dev{
+	background-position: -32px -32px;
+}
+
+.icon-sprite.sprite-sup{
+	background-position: -64px -32px;
+}
+
+/*latest work*/
+
+.heading{
+	padding: 60px 0;
+}
+
+.heading h1{
+	background: url(img/heading.png)no-repeat;
+	background-position: center bottom;
+	padding: 0 0 20px 0;
+}
 
 
+.control-right{
+        padding: 50px 0 0 0;
+}
+
+.gallery{
+	background: #2c3e50;
+
+}
+
+.gallery-inner{
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.gallery-inner img{
+	margin: 0;
+	padding: 0;
+	opacity: 0.6;
+
+}
+
+.gallery-inner .caption h4{
+
+	color: #fff;
+
+}
+
+.gallery-inner .caption small{
+	color: rgba(255,255,255,0.6);
+}
+
+.gallery-inner .caption{
+	opacity: 0;
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(243,156,18,0.9);
+	-webkit-transition: opacity .1 ease-in-out;
+}
+.gallery-inner:hover .caption{
+	opacity: 1;
+}
+
+
+.gallery-inner .caption .btn-trigger{
+	text-align: center;
+	position: absolute;
+	top: 30px;
+}
+
+.gallery-inner .caption .btn-trigger a{
+	width: 44px;
+	height: 44px;
+	text-indent: -9999px;
+		background: url(img/sprite.png)no-repeat;
+		background-position: left-bottom;
+		border: 1px solid #fff;
+
+}
+
+
+.gallery-inner .caption .btn-trigger a:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+
+.gallery-inner .caption .btn-trigger .web-link{
+	background-position: left bottom;
+}
+
+
+.gallery-inner .caption .btn-trigger .more-info{
+	background-position: -44px bottom;
+}
 
 
