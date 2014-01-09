@@ -492,11 +492,86 @@ margin-bottom: 30px;
 
 
 .icon-sprite.sprite-loc{
-	
+	background-position: left top;
+}
+.icon-sprite.sprite-mail{
+	background-position: -32px top;
+}
+.icon-sprite.sprite-phone{
+	background-position: -64px top;
+}
+
+.contact-info .location, .contact-info .email{
+	margin-bottom: 60px;
+}
+
+
+/*end*/
+
+footer{
+	padding: 60px 0;
+}
+
+.copyright small{
+	color: #95a5a6;
+	font-size: 13px;
+}
+
+.social-icons{
+	padding-top: 60px;
+}
+.icon-sprite.sprite-ig{
+
+	background-position: left -64px; 
+
+}
+.icon-sprite.sprite-fb{
+
+	background-position: -32px -64px; 
+
+}
+
+.icon-sprite.sprite-dc{
+
+	background-position: -64px -64px; 
+
+}
+
+.icon-sprite.sprite-gp{
+
+	background-position: -96px -64px; 
+
+}
+
+.icon-sprite.sprite-db{
+
+	background-position: -128px -64px; 
+
 }
 
 
 
+/*end*/
 
+@media(min-width:768px){
 
+	.navbar-default .navbar-collapse{
+		background: none;
+	}
 
+	.navbar-default .navbar-nav{
+		float: right;
+	}
+
+	.navbar-default .navbar-nav>li{
+		margin-left: 30px;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 9px 0 0 0;
+	}
+
+	.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+
+  border-bottom: 2px solid #fff;
+}
